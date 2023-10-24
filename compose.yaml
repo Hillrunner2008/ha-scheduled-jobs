@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=beaninjections'
+      - 'POSTGRES_PASSWORD=beaninjections'
+      - 'POSTGRES_USER=beaninjections'
+    ports:
+      - 5432:5432
+
+
